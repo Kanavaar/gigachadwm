@@ -36,7 +36,7 @@ https://user-images.githubusercontent.com/59060246/128050994-17f46934-6604-4430-
 # Install
 
 ```
-git clone https://github.com/siduck/chadwm --depth 1  ~/.config
+git clone https://github.com/kanavaar/gigachadwm --depth 1  ~/.config
 cd ~/.config/chadwm/
 mv eww ~/.config
 sudo make install
@@ -74,7 +74,7 @@ sudo touch /usr/share/xsessions/chadwm.desktop
 [Desktop Entry]
 Name=chadwm
 Comment=dwm made beautiful 
-Exec=/home/user/.config/chadwm/scripts/./run.sh 
+Exec=~/.config/chadwm/scripts/./run.sh 
 Type=Application 
 ```
 
@@ -87,7 +87,7 @@ Type=Application
 ```
 cd ~/.config/chadwm/chadwm
 rm config.h
-sudo make install
+sudo make clean install
 ```
 
 # Change themes
